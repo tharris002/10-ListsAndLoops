@@ -5,7 +5,7 @@
 #
 #   For this _TODO_, simply create a list called ingredients that will have a list of strings that represent different ingredients that you might have in a recipe. Choose whichever ingredients you like, but make sure you have at least 4 ingredients in your list.
 #
-#   You saw too different ways to create a list in the reading. Make sure you use the one involving square brackets [].
+#   You saw two different ways to create a list in the reading. Make sure you use the one involving square brackets [].
 #
 #   Once you have created the list, make sure to print out the list.
 #
@@ -41,7 +41,7 @@
 ###############################################################################
 # TODO: 5. (2 pts)
 #   
-#   For this _TODO_, write a line of code that removes the last item from the list and prints. Once you have done this, print the list. Make sure you do NOT create a new list, but actually modify the original.
+#   For this _TODO_, write a line of code that removes the last item from the list. Once you have done this, print the list. Make sure you do NOT create a new list, but actually modify the original.
 #
 #   NOTE: Your solution should work for any list of any length. DO NOT use indexes or reference a specific item in your solution.
 #
