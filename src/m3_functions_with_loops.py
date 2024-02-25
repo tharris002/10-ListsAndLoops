@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (4 pts)
+# DONE: 1. (4 pts)
 #   
 #   Now, let's try to combine a few of the things we learned in previous
 #   exercises together. We are going to improve upon some of the loops that we
@@ -25,6 +25,15 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+
+def ingredient_search(ingredient, list):
+    for x in list:
+       if x == ingredient:
+        return True
+    return False
+print(ingredient_search(ingredient = 'egg', list = ['sugar', 'salt', 'flour']))
+
+print(ingredient_search(ingredient = 'salt', list = ['sugar', 'salt', 'flour']))
 
 ###############################################################################
 # TODO: 1. (3 pts)
@@ -64,3 +73,9 @@
 #   
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+
+def triangle(size):  
+   for size in range(0,size + 1):
+      print (size * '*')
+
+triangle(10)
