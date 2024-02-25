@@ -36,7 +36,7 @@ print(ingredient_search(ingredient = 'egg', list = ['sugar', 'salt', 'flour']))
 print(ingredient_search(ingredient = 'salt', list = ['sugar', 'salt', 'flour']))
 
 ###############################################################################
-# TODO: 1. (3 pts)
+# DONE: 1. (3 pts)
 #   
 #   For this _TODO_, write a function called triangle() that takes one
 #   parameter:
